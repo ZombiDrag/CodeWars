@@ -1,4 +1,4 @@
-```python
+
 """
 DESCRIPTION:
 This Kata is intended as a small challenge for my students
@@ -23,4 +23,4 @@ def to_time(seconds):
     minute, seconds = divmod(seconds, 60)
     hour, minute = divmod(minute, 60)
     return f'{hour} hour(s) and {minute} minute(s)'
-```
+
